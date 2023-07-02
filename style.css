@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(img/mistborn_2era.jpg) no-repeat fixed 50% top;
+    background-size: cover;
+}
+
+#bg {
+    background-color: #121214;
+    height: 100%;
+    width: 900px;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    color: #f2f2f2;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: #f2f2f2;
+    font-size: 45px;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    color: #f2f2f2;
+    font-size: 33px;
+    text-align: left;
+    margin-top: 40px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: #f9f9f9;
+    font-size: 18px;
+    text-align: justify;
+}
+
+#tema {
+    position: relative;
+}
+  
+#tema::after {
+    content: "There's always another secret";
+    position: absolute;
+    top: 72%;
+    right: 0;
+    font-size: 14px;
+    color: #f4d2ac;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+  
+#tema:hover::after {
+    opacity: 1;
+}
+
+.tittle-wrapper ::after {
+  content: "";
+  display: inline-block;
+  background-image: url(img/larasium_purple.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+}
+
+.tittle-wrapper ::before {
+    content: "";
+    display: inline-block;
+    background-image: url(img/atium.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+}
+
+.hobby h4 {
+    font-family: 'Open Sans', sans-serif;
+    color: #f4d2ac;
+    font-size: 30px;
+    text-align: left;
+}
+
+#kelsier {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#kelsier p {
+    font-style: italic;
+    font-size: 15px;
+}
+
+#skin {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#skin p {
+    font-style: italic;
+    font-size: 15px;
+}
+
+.content-hobby p {
+    margin-bottom: 30px;
+}
+
+.tsi p {
+    margin-bottom: 50px;
+}
+
+hr {
+    background-color: #f2f2f2;
+}
+
+.footer ul {
+    list-style-type: none;
+}
