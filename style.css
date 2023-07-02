@@ -11,7 +11,6 @@ body {
     background-color: #121214;
     height: 100%;
     max-width: 720px;
-    min-width: 540px;
 }
 
 h1 {
@@ -71,8 +70,8 @@ p {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 50px;
-  height: 50px;
+  max-width: 50px;
+  max-height: 50px;
 }
 
 .tittle-wrapper ::before {
@@ -82,8 +81,8 @@ p {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 50px;
-    height: 50px;
+    max-width: 50px;
+    max-height: 50px;
 }
 
 .hobby h4 {
