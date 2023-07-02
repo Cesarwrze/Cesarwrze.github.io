@@ -10,7 +10,8 @@ body {
 #bg {
     background-color: #121214;
     height: 100%;
-    max-width: 900px;
+    max-width: 720px;
+    min-width: 540px;
 }
 
 h1 {
@@ -50,7 +51,7 @@ p {
   
 #tema::after {
     content: "There's always another secret";
-    position: absolute;
+    position: relative;
     top: 72%;
     right: 0;
     font-size: 14px;
