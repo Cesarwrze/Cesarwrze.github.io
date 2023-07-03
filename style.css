@@ -53,7 +53,7 @@ p {
     position: relative;
     top: 72%;
     right: 0;
-    font-size: 14px;
+    font-size: 90%;
     color: #f4d2ac;
     opacity: 0;
     transition: opacity 0.3s;
@@ -70,23 +70,19 @@ p {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 40px;
-  height: 40px;
-  margin: 0;
-  padding: 0;
+  width: 20px;
+  height: 20px;
 }
 
 .tittle-wrapper ::before {
     content: "";
     display: inline-block;
-    background-image: url(atium.png);
+    background-image: url(img/atium.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 40px;
-    height: 40px;
-    margin: 0;
-    padding: 0;
+    width: 20px;
+    height: 20px;
 }
 
 .hobby h4 {
